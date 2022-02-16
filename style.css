@@ -333,5 +333,5 @@ footer i {
   }
 
 #footer {
-  align-self: center;
+  margin: 0 auto;
 }
