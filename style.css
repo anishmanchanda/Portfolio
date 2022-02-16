@@ -316,6 +316,7 @@ footer {
   padding: 2rem;
   background: var(--main-gray);
   border-top: 4px solid var(--main-red);
+  margin: 0 auto;
 }
 
 footer > p {
