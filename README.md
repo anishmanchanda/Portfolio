@@ -13,7 +13,7 @@ Built on [playground-macos](https://github.com/Renovamen/playground-macos) by [R
 | Terminal files | `src/configs/terminal.tsx` |
 | Safari links | `src/configs/websites.ts` |
 | Launchpad | `src/configs/launchpad.ts` |
-| Control Center music (generated brown noise) | `src/configs/music.ts`, `public/music/` |
+| Control Center music (generated ambient pad) | `src/configs/music.ts`, `public/music/` |
 | Résumé | `public/resume.pdf` |
 
 ## Develop
