@@ -1,0 +1,7 @@
+# Netlify build settings (override whatever the dashboard has saved)
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
