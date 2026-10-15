@@ -1,63 +1,30 @@
-# playground-macos
+# Anish Manchanda — Portfolio
 
-My portfolio website simulating macOS's GUI: https://portfolio.zxh.me
+My portfolio, simulating macOS: log in, open Bear for my profile and projects, poke around the Terminal (`help`, `ls`, `cat about/bio.txt`), Safari for my links, and Launchpad for live projects.
 
-Powered by [React](https://reactjs.org/) + [Zustand](https://zustand-demo.pmnd.rs/) + [UnoCSS](https://uno.antfu.me/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/).
+Built on [playground-macos](https://github.com/Renovamen/playground-macos) by [Renovamen](https://github.com/Renovamen) (MIT, see `LICENSE`), with React, Zustand and UnoCSS. Self-hosted on my home server.
 
-![light mode](./public/screenshots/light.png)
-![dark mode](./public/screenshots/dark.png)
+## Where the content lives
 
+| What | File |
+|---|---|
+| Name, avatar | `src/configs/user.ts` |
+| Bear notes (profile + projects) | `src/configs/bear.tsx` → `public/markdown/**/*.md` |
+| Terminal files | `src/configs/terminal.tsx` |
+| Safari links | `src/configs/websites.ts` |
+| Launchpad | `src/configs/launchpad.ts` |
+| Control Center music (generated brown noise) | `src/configs/music.ts`, `public/music/` |
+| Résumé | `public/resume.pdf` |
 
-&nbsp;
-
-## Usage
-
-Clone the repo and install dependencies:
+## Develop
 
 ```bash
 pnpm install
+pnpm dev        # dev server
+pnpm build      # static site in dist/
+pnpm serve      # preview the build
 ```
 
-Start dev server (with hot reloading):
+## Deploy
 
-```bash
-pnpm dev
-```
-
-Build for production with minification to the `dist` folder:
-
-```bash
-pnpm build
-```
-
-
-&nbsp;
-
-## Changelog
-
-- **Update 2023.06.26**: Improve [FaceTime](https://support.apple.com/en-us/HT208176).
-
-- **Update 2023.06.25**: Add [Typora](https://typora.io/), built on top of [Milkdown](https://milkdown.dev/).
-
-- **Update 2021.12.05**: Simulated the device's actual battery state using [Battery API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API), displaying 100% charge on [unsupported browsers](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API#browser_compatibility).
-
-- **Update 2021.12.05**: Refactored for cleaner code by utilizing functional components and hooks. Refer to [this branch](https://github.com/Renovamen/playground-macos/tree/class-component) for the previous version implemented with class components.
-
-
-&nbsp;
-
-## Credits
-
-- macOS
-  - [Monterey](https://www.apple.com/macos/monterey/)
-  - [Catalina](https://www.apple.com/bw/macos/catalina/)
-- [macOS Icon Gallery](https://www.macosicongallery.com/)
-- [sindresorhus/file-icon-cli](https://github.com/sindresorhus/file-icon-cli)
-- [vivek9patel.github.io](https://github.com/vivek9patel/vivek9patel.github.io)
-
-
-&nbsp;
-
-## License
-
-[MIT](MIT)
+`pnpm build` produces a static site in `dist/`. Serve that folder with any web server (Caddy, Nginx).

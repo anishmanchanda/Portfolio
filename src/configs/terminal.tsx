@@ -12,10 +12,9 @@ const terminal: TerminalData[] = [
         type: "file",
         content: (
           <div className="py-1">
-            <div>
-              Hi, this is Xiaohan Zou. I am a PhD student at the Computer Science and
-              Engineering department of Pennsylvania State University.
-            </div>
+            Hi, I'm Anish Manchanda, a B.Tech CSE (AI) student at USICT (GGSIPU), New
+            Delhi, class of 2028. I build backend systems, LLM pipelines and native Apple
+            apps, and I like debugging things down to the byte.
           </div>
         )
       },
@@ -23,14 +22,15 @@ const terminal: TerminalData[] = [
         id: "about-interests",
         title: "interests.txt",
         type: "file",
-        content: "Machine Learning / Computer Vision / Multimodal Learning"
+        content:
+          "Backend & APIs / RAG & LLM apps / AI agents & evals / Voice agents / Native Apple apps"
       },
       {
-        id: "about-who-cares",
-        title: "who-cares.txt",
+        id: "about-looking-for",
+        title: "looking-for.txt",
         type: "file",
         content:
-          "I'm looking for a research internship for Summer 2024. I'm open to collaboration on research projects."
+          "Summer 2027 internships and remote part-time roles in backend and AI engineering."
       },
       {
         id: "about-contact",
@@ -42,65 +42,45 @@ const terminal: TerminalData[] = [
               Email:{" "}
               <a
                 className="text-blue-300"
-                href="mailto:renovamenzxh@gmail.com"
+                href="mailto:anishmanchanda2006@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                renovamenzxh@gmail.com
+                anishmanchanda2006@gmail.com
+              </a>
+            </li>
+            <li>Phone: +91 74289 12104</li>
+            <li>
+              GitHub:{" "}
+              <a
+                className="text-blue-300"
+                href="https://github.com/anishmanchanda"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @anishmanchanda
               </a>
             </li>
             <li>
-              Github:{" "}
+              LinkedIn:{" "}
               <a
                 className="text-blue-300"
-                href="https://github.com/Renovamen"
+                href="https://www.linkedin.com/in/anish-manchanda"
                 target="_blank"
                 rel="noreferrer"
               >
-                @Renovamen
+                anish-manchanda
               </a>
             </li>
             <li>
+              Résumé:{" "}
               <a
                 className="text-blue-300"
-                href="https://scholar.google.com/citations?user=RuW6xgMAAAAJ"
+                href="resume.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
-                Google Scholar
-              </a>
-            </li>
-            <li>
-              Linkedin:{" "}
-              <a
-                className="text-blue-300"
-                href="https://www.linkedin.com/in/xiaohan-zou"
-                target="_blank"
-                rel="noreferrer"
-              >
-                xiaohan-zou
-              </a>
-            </li>
-            <li>
-              Personal Website:{" "}
-              <a
-                className="text-blue-300"
-                href="https://zxh.me"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://zxh.me
-              </a>
-            </li>
-            <li>
-              知乎:{" "}
-              <a
-                className="text-blue-300"
-                href="https://www.zhihu.com/people/chao-neng-gui-su"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @西伯利亚大恶龙
+                resume.pdf
               </a>
             </li>
           </ul>
@@ -109,22 +89,14 @@ const terminal: TerminalData[] = [
     ]
   },
   {
-    id: "about-dream",
-    title: "my-dream.cpp",
+    id: "home-server",
+    title: "home-server.txt",
     type: "file",
     content: (
       <div className="py-1">
-        <div>
-          <span className="text-yellow-400">while</span>(
-          <span className="text-blue-400">sleeping</span>) <span>{"{"}</span>
-        </div>
-        <div>
-          <span className="text-blue-400 ml-9">money</span>
-          <span className="text-yellow-400">++</span>;
-        </div>
-        <div>
-          <span>{"}"}</span>
-        </div>
+        <div>Host: Dell laptop from 2016 · Intel Core i5 · 4 GB RAM · 128 GB SSD</div>
+        <div>OS: Debian GNU/Linux 13 (Trixie), headless, managed over SSH</div>
+        <div>Serving: MaterialMover, this portfolio, and a few other projects 😉</div>
       </div>
     )
   }

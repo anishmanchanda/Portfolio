@@ -1,32 +1,23 @@
 # About Me
 
-## Biography
+Hi, I'm **Anish Manchanda**, a B.Tech Computer Science (AI) student at USICT (GGSIPU), New Delhi, class of 2028. I build backend systems, AI pipelines, web and native apps, and whatever a hackathon problem statement throws at me. I like debugging things down to the byte.
 
-Hey there! I am a PhD student at the [Computer Science and Engineering](https://www.eecs.psu.edu/) department of [Pennsylvania State University](https://www.psu.edu/). Previously, I received my master's degree in [Computer Science](https://www.bu.edu/cs/) from [Boston University](https://www.bu.edu/) and my bachelor’s degree in [Software Engineering](http://sse.tongji.edu.cn/) from [Tongji University](https://www.tongji.edu.cn/).
+## What I work on
 
-I'm trying to find a balance between research and engineering.
+- **Backend & APIs:** Python, FastAPI, Node.js/Express, REST, async processing
+- **AI / GenAI:** RAG with hybrid FAISS + BM25 retrieval, multi-provider LLM integration, agentic workflows, LLM-as-a-Judge evaluation
+- **Full-stack:** React, Next.js, PostgreSQL, MongoDB, SQLite
+- **Native Apple apps:** Swift, SwiftUI, AppKit, watchOS, Bluetooth protocols
+- **Infra:** Docker, GitHub Actions CI/CD, AWS, Linux, and a home server I run myself
 
-My current research interests primarily focus on understanding and enhancing the continuity, generalizability, efficiency, and other key properties of machine learning. I am also interested in large multimodal models.
+## Currently
 
-I'm also learning web development and building machine learning software and systems.
-
+Open to Summer 2027 internships and remote part-time roles in backend and AI engineering.
 
 ## Contact
 
-Contact me by:
-
-- Email: [renovamenzxh@gmail.com](mailto:renovamenzxh@gmail.com)
-- Github: [@Renovamen](https://github.com/Renovamen)
-- [Google Scholar](https://scholar.google.com/citations?user=RuW6xgMAAAAJ)
-- Linkedin: [xiaohan-zou](https://www.linkedin.com/in/xiaohan-zou)
-- 知乎: [@西伯利亚大恶龙](https://www.zhihu.com/people/chao-neng-gui-su)
-- Personal Website: [zxh.me](https://zxh.me)
-
-
-## Résumé
-
-- Normal version: [English](https://zxh.me/files/cv/en.pdf) / [中文](https://zxh.me/files/cv/cn.pdf)
-
-  中文版的更新很可能不及时
-
-- Interesting version: [portfolio.zxh.me](https://portfolio.zxh.me) / [resume.zxh.io](https://resume.zxh.io)
+- Email: [anishmanchanda2006@gmail.com](mailto:anishmanchanda2006@gmail.com)
+- Phone: +91 74289 12104
+- GitHub: [@anishmanchanda](https://github.com/anishmanchanda)
+- LinkedIn: [anish-manchanda](https://www.linkedin.com/in/anish-manchanda)
+- Résumé: [resume.pdf](resume.pdf)
