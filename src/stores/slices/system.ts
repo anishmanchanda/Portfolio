@@ -20,7 +20,7 @@ export interface SystemSlice {
 
 export const createSystemSlice: StateCreator<SystemSlice> = (set) => ({
   dark: false,
-  volume: 100,
+  volume: 30,
   brightness: 80,
   wifi: true,
   bluetooth: true,
