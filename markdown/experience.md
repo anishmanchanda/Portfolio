@@ -14,11 +14,12 @@
 - Built an autonomous evaluator agent (LLM-as-a-Judge) that assessed live agent conversations against defined quality rules, surfacing which interactions failed and why.
 - Designed an automated regression and monitoring framework running scheduled checks over historical call data to catch behavioural drift before release, cutting manual QA effort by **30%**.
 
-## USICT TechSpace — Computer Vision Intern
+## Indian Audit & Accounts Department — Computer Vision Intern
 *February 2026 – March 2026 · New Delhi*
 
 - Built internal reporting dashboards with Python data-processing scripts and Chart.js visualisations (time-series graphs, distribution pie charts), giving stakeholders visibility into digitisation volume and error rates.
 - Developed an OCR data pipeline in Python digitising handwritten invoices into a structured SQL database feeding those dashboards.
+- Received a written appreciation note from the department (July 2026).
 
 ## Excel Health-Tech Devices — Software Engineer Intern
 *December 2025 – January 2026 · New Delhi*
