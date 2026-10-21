@@ -18,7 +18,7 @@ const bear: BearData[] = [
         title: "Experience",
         file: "markdown/experience.md",
         icon: "i-ph:briefcase-bold",
-        excerpt: "Pepper Labs AI, MCT India Infotech, USICT TechSpace..."
+        excerpt: "Pepper Labs AI, MCT India Infotech, Indian Audit & Accounts Dept..."
       },
       {
         id: "education",

@@ -34,7 +34,7 @@ Backend & AI Engineer · New Delhi · [anishmanchanda2006@gmail.com](mailto:anis
 - Python backend for a real-time conversational voice agent: session orchestration, multi-turn streaming, REST integrations
 - LLM-as-a-Judge evaluator for live conversations; scheduled regression checks that cut manual QA effort by 30%
 
-**USICT TechSpace** · Computer Vision Intern · Feb–Mar 2026
+**Indian Audit & Accounts Department** · Computer Vision Intern · Feb–Mar 2026
 - OCR pipeline digitising handwritten invoices into SQL, with Chart.js reporting dashboards
 
 **Excel Health-Tech Devices** · Software Engineer Intern · Dec 2025–Jan 2026
